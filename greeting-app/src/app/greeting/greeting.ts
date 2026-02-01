@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class GreetingComponent {
   message: string = 'Hello, welcome to the Angular Greeting Component!';
+
+  changeGreeting() {
+    this.message = 'Goodbye, thanks for visiting!';
+  }
 }
